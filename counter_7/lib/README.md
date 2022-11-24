@@ -167,3 +167,12 @@ Kita dapat melakukan pengambilan data JSON tanpa membuat model. Namun, pembuatan
 6. Menampilkan data yang telah dikonversi menggunakan FutureBuilder ke aplikasi
 7. Membuat watchlist_detail untuk menampilkan detail dari film yang dipilih oleh pengguna
 
+Reference:
+https://pbp-fasilkom-ui.github.io/ganjil-2023/assignments/tutorial/tutorial-8 
+https://api.flutter.dev/flutter/widgets/Container-class.html 
+https://api.flutter.dev/flutter/material/ListTile-class.html 
+https://api.flutter.dev/flutter/widgets/Padding-class.html 
+https://api.flutter.dev/flutter/widgets/Text-class.html 
+https://api.flutter.dev/flutter/widgets/Column-class.html 
+https://api.flutter.dev/flutter/widgets/Row-class.html 
+https://api.flutter.dev/flutter/widgets/GestureDetector-class.html 
