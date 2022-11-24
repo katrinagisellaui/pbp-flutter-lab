@@ -128,3 +128,42 @@ https://api.flutter.dev/flutter/widgets/Padding-class.html
 https://api.flutter.dev/flutter/widgets/Text-class.html 
 https://api.flutter.dev/flutter/widgets/Column-class.html 
 https://api.flutter.dev/flutter/widgets/Row-class.html 
+
+
+# Tugas 9 PBP
+Katrina Gisella Sembiring
+2106707826
+
+### Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
+Kita dapat melakukan pengambilan data JSON tanpa membuat model. Namun, pembuatan model akan memudahkan kita dalam mengambl data JSON. Terlebih untuk proyek berukuran besar, pembuatan model akan sangat membantu dalam pengambilan data JSON.
+
+### Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+* Text: untuk menampilkan text dengan satu style
+* Padding: widget yang menyisipkan anaknya dengan padding yang diberikan
+* Column: widget yang menampilkan anak2nya pada array vertikal
+* Row: widget yang menampilkan anak2nya pada array horizontal
+* Container: mengelilingi sang anak dengan padding dan menambahkan constraint extra
+* Icon: widget untuk membuat graphical icon
+* ElevatedButton: tombol yang elevasinya akan meningkat ketika ditekan
+* GestureDetector: widget yang mendeteksi gestur
+
+### Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
+1. Menambahkan dependency http ke proyek, dependency ini digunakan untuk bertukar data melalui HTTP request, seperti GET, POST, PUT, dan lain-lain.
+
+2. Membuat model sesuai dengan respons dari data yang berasal dari web service tersebut.
+
+3. Membuat http request ke web service menggunakan dependency http.
+
+4. Mengkonversikan objek yang didapatkan dari web service ke model yang telah kita buat di langkah kedua.
+
+5. Menampilkan data yang telah dikonversi ke aplikasi dengan FutureBuilder.
+
+###  Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+1. Menambahkan dependancy http ke proyek
+2. Membuat model MyWatchList sebagai model dari film pada /model/watchlist.dart 
+3. Menambahkan menu baru watchlist pada drawer
+4. Membuat halaman untuk menampilkan watchlist dan detail dari setiap film
+5. Membuat getWatchList untuk mengambil data dari url
+6. Menampilkan data yang telah dikonversi menggunakan FutureBuilder ke aplikasi
+7. Membuat watchlist_detail untuk menampilkan detail dari film yang dipilih oleh pengguna
+

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'form.dart';
-import 'drawer.dart';
-
+import 'package:counter_7/page/form.dart';
+import 'package:counter_7/page/drawer.dart';
+import 'package:counter_7/page/drawer.dart';
+import 'package:counter_7/util/getWatchList.dart';
 
 void main() {
   runApp(const MyApp());
@@ -112,6 +113,16 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            // _counter % 2 == 0
+            //   ? const Text (
+            //     'GENAP',
+            //     style:TextStyle(color:Colors.red),
+            //   )
+            //   : const Text (
+            //     'GANJIL',
+            //     style: TextStyle(color:Colors.blue).
+            //   ),
+
             const Text(
               'You have pushed the button this many times:',
             ),
